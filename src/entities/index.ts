@@ -1,4 +1,4 @@
-import { Movie } from "./user.entity";
+import { Movie } from "./movies.entity";
 export {
 	Movie
 };
