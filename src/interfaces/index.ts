@@ -1,8 +1,10 @@
-import { iMovieCreate,iMovieRepo,iMovieResponse,iMovieUpdate } from "./movies.interface";
+import { iMovieCreate,iMovieRepo,iMovieResponse,iMovieUpdate,iReadAllMovies,iobjectReadAllMovies } from "./movies.interface";
 
 export {
 	iMovieCreate,
 	iMovieRepo,
 	iMovieResponse,
 	iMovieUpdate,
+	iReadAllMovies,
+	iobjectReadAllMovies
 };

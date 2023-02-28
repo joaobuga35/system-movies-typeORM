@@ -15,4 +15,11 @@ const movieCreateSchema = movieSchema.omit({
 
 const editMovieSchema = movieCreateSchema.partial();
 
-export {movieSchema,movieCreateSchema,editMovieSchema};
+const readMoviesSchema = movieSchema.array();
+
+const objectReadMovies = z.object({
+	count: z.number(),
+	data: readMoviesSchema
+});
+
+export {movieSchema,movieCreateSchema,editMovieSchema,readMoviesSchema, objectReadMovies};
