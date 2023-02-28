@@ -13,4 +13,6 @@ const movieCreateSchema = movieSchema.omit({
 	id: true
 }); 
 
-export {movieSchema,movieCreateSchema};
+const editMovieSchema = movieCreateSchema.partial();
+
+export {movieSchema,movieCreateSchema,editMovieSchema};

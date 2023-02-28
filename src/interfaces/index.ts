@@ -4,5 +4,5 @@ export {
 	iMovieCreate,
 	iMovieRepo,
 	iMovieResponse,
-	iMovieUpdate
+	iMovieUpdate,
 };
