@@ -1,3 +1,3 @@
-# m4-t14-movies-typeorm
+# API movies 
 
-Para essa entrega, é necessário executar testes automatizados.
+-Voltada para simulação de uma locadora. 
